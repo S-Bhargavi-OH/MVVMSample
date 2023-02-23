@@ -10,6 +10,9 @@
         android:theme="@style/Theme.MVVMSample"
         tools:targetApi="31">
         <activity
+            android:name=".view.SampleActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.LoginActivity"
             android:exported="true"
             android:theme="@style/Theme.MVVMSample.NoActionBar">
@@ -19,7 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.NextScreenActivity"/>
+        <activity android:name=".view.NextScreenActivity" />
     </application>
 
 </manifest>
